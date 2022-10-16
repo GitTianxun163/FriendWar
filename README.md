@@ -3,7 +3,7 @@
 当前的最新版本(Formal)：暂无<br>
 当前的最新版本(Inside)：Inside 1100<br>
 
-本作品由天寻(https://space.bilibili.com/627871340)制作<br>
+本作品由<a href="https://space.bilibili.com/627871340">天寻</a>制作<br>
 
 感谢支持，喜欢给个Star！<br>
 

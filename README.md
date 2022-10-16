@@ -1,3 +1,11 @@
+<!--
+ * @Author: GitTianxun163 tianxunwx@163.com
+ * @Date: 2022-10-16 15:31:12
+ * @LastEditors: GitTianxun163 tianxunwx@163.com
+ * @LastEditTime: 2022-10-16 15:32:24
+ * @FilePath: \FriendWar\README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # FriendWar
 这是一个非常好van的游戏<br>
 当前的最新版本(Formal)：暂无<br>
@@ -21,5 +29,5 @@ B玩家操作方式: IKJL上下左右移动, M朝玩家面向方向发射子弹,
 1.此仓库里所有cpp文件统一使用utf-8编码,如果你使用的是Windows系统并使用Dev C++这一类的工具，直接下载打开可能出现注释乱码，请使用复制代码的形式复制到工具里<br>
 
 # 更新:
-最新的更新：<a></a><br>
-其余更新详见：
+最新的更新：<a href="https://github.com/GitTianxun163/FriendWar/blob/main/UpdateLogs/Inside-1100.md">点击此处</a><br>
+其余更新详见：<a href="https://github.com/GitTianxun163/FriendWar/tree/main/UpdateLogs">点击此处</a><br>

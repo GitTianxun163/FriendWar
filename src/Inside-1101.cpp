@@ -336,7 +336,7 @@ void showPlayerHealth(Player player,short line=0) {
     else if (player.getHealth()>=20) SetConsoleTextAttribute(STDOUT_HANDLE,0x06);
     else SetConsoleTextAttribute(STDOUT_HANDLE,0x04);
     setConsolePos(16+step,line);
-    printf(" | %3d/%3d\n",player.getHealth(),MAX_HEALTH);
+    printf(" | %3hd/%3u\n",player.getHealth(),MAX_HEALTH);
 
     SetConsoleTextAttribute(STDOUT_HANDLE,0x07);
 }
@@ -350,8 +350,8 @@ void draw(){
     printf("Player2 Health: ");
     showPlayerHealth(player2,2);
 
-    printf("Player1 Bulltes: %3d/%3d\n",player.bullet_num,MAX_BULLETS);
-    printf("Player2 Bulltes: %3d/%3d\n",player2.bullet_num,MAX_BULLETS);
+    printf("Player1 Bulltes: %3hd/%3hd\n",player.bullet_num,MAX_BULLETS);
+    printf("Player2 Bulltes: %3hd/%3hd\n",player2.bullet_num,MAX_BULLETS);
 
     player.draw('A');
     player2.draw('B');
@@ -383,7 +383,7 @@ void draw(){
 void init(){
     over=false;
     stop=false;
-    SetConsoleTitle("Friend War Inside-1100");
+    SetConsoleTitle("Friend War Inside-1101");
     SetConsoleTextAttribute(STDOUT_HANDLE,0x07);
     printf(" ----------------------------------\n");Sleep(11);
     printf(" |                                |\n");Sleep(10);
@@ -392,7 +392,7 @@ void init(){
     printf(" |                                |\n");Sleep(10);
     printf(" |                                |\n");Sleep(10);
     printf(" ----------------------------------\n");Sleep(11);
-    printf(" Version Inside-1100    Made in Tianxun\n\n\n");Sleep(10);
+    printf(" Version Inside-1101    Made in Tianxun\n\n\n");Sleep(10);
     printf(" Loading: ");
     SetConsoleTextAttribute(STDOUT_HANDLE,0x88);
     printf("                                                  \n");Sleep(10);

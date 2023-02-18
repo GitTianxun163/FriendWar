@@ -29,5 +29,5 @@ B玩家操作方式: IKJL上下左右移动, M朝玩家面向方向发射子弹,
 1.此仓库里所有cpp文件统一使用utf-8编码,如果你使用的是Windows系统并使用Dev C++这一类的工具，直接下载打开可能出现注释乱码，请使用复制代码的形式复制到工具里<br>
 
 # 更新:
-最新的更新：<a href="https://github.com/GitTianxun163/FriendWar/blob/main/UpdateLogs/Inside-1102.md" target="blank">点击此处</a><br>
+最新的更新：<a href="https://github.com/GitTianxun163/FriendWar/blob/main/UpdateLogs/v1.1.0.md" target="blank">点击此处</a><br>
 其余更新详见：<a href="https://github.com/GitTianxun163/FriendWar/tree/main/UpdateLogs" target="blank">点击此处</a><br>

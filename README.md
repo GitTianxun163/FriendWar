@@ -8,7 +8,7 @@
 -->
 # FriendWar
 这是一个非常好van的游戏<br>
-当前的最新版本(Formal)：v1.0.0<br>
+当前的最新版本(Formal)：v1.1.0<br>
 当前的最新版本(Inside)：Inside 1101<br>
 
 本作品由<a href="https://space.bilibili.com/627871340" target="blank">天寻</a>制作<br>

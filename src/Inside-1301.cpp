@@ -19,6 +19,7 @@ Game Data:
 
 Update Log:
     1. 适配cmd
+    2. 修复无限子弹bug
 
 本作品由天寻(https://space.bilibili.com/627871340)制作
 GitHub仓库: https://github.com/GitTianxun163/FriendWar
@@ -103,8 +104,8 @@ class Player{
     short health;
     Direction direction;
     bool show; 
-    bool newb;
     public:
+    bool newb;
     short bullet_num;
     int CD;
     short x,y;
@@ -249,6 +250,7 @@ class Bullet{
 
         this->x=from->x;
         this->y=from->y;
+        if (this->from->newb) this->isExt=false;
         if (this->from == &player) {
             debugs = "player1 bulleting";
         }

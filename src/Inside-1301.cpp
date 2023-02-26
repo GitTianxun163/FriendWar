@@ -5,7 +5,7 @@ using namespace std;
 
 /*
 
-Friend War Inside-1300 双人对决游戏
+Friend War Inside-1301 双人对决游戏
 
 Game Description:
     游戏开始有A和B两个玩家,起初他们堆叠在一起，需要任意一个玩家移开。
@@ -18,10 +18,7 @@ Game Data:
     子弹CD(MAX_CD): 1/4秒
 
 Update Log:
-    1. 边框颜色更改
-    2. 加入时间显示
-    3. 击穿救治包后子弹会消失
-    4. 加入调试信息，可通过-D参数开启
+    1. 适配cmd
 
 本作品由天寻(https://space.bilibili.com/627871340)制作
 GitHub仓库: https://github.com/GitTianxun163/FriendWar
@@ -571,7 +568,7 @@ void init(){
     over=false;
     stop=false;
     starting = true;
-    SetConsoleTitle("Friend War Inside-1300");
+    SetConsoleTitle("Friend War Inside-1301");
     SetConsoleTextAttribute(STDOUT_HANDLE,0x07);
     printf(" ----------------------------------\n");Sleep(11);
     printf(" |                                |\n");Sleep(10);
@@ -580,7 +577,7 @@ void init(){
     printf(" |                                |\n");Sleep(10);
     printf(" |                                |\n");Sleep(10);
     printf(" ----------------------------------\n");Sleep(11);
-    printf(" Version Inside-1300    Made in Tianxun\n\n\n");Sleep(10);
+    printf(" Version Inside-1301    Made in Tianxun\n\n\n");Sleep(10);
     printf(" Loading: ");
     SetConsoleTextAttribute(STDOUT_HANDLE,0x88);
     printf("                                                  \n");Sleep(10);
@@ -719,6 +716,7 @@ void restart() {
 }
 
 int main(){
+    system("cls");
     init();
     SetConsoleTextAttribute(STDOUT_HANDLE,0x07);
     while (true){

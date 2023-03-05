@@ -9,7 +9,7 @@
 # FriendWar
 这是一个非常好van的游戏<br>
 当前的最新版本(Formal)：v1.2.1<br>
-当前的最新版本(Inside)：Inside 1300<br>
+当前的最新版本(Inside)：Inside 1302<br>
 
 本作品由<a href="https://space.bilibili.com/627871340" target="blank">天寻</a>制作<br>
 
@@ -26,7 +26,8 @@ B玩家操作方式: IKJL上下左右移动, M朝玩家面向方向发射子弹,
 子弹CD(MAX_CD): 1/4秒<br>
 
 # 注意事项
-1.此仓库里所有cpp文件统一使用utf-8编码,如果你使用的是Windows系统并使用Dev C++这一类的工具，直接下载打开可能出现注释乱码，请使用复制代码的形式复制到工具里<br>
+1. 此仓库里所有cpp文件统一使用utf-8编码,如果你使用的是Windows系统并使用Dev C++这一类的工具，直接下载打开可能出现注释乱码，请使用复制代码的形式复制到工具里<br>
+2. 如果你使用Dev-C++编译，<span style="color:red;"><strong>请删除main函数的第一行</strong></span><br>
 
 # 更新:
 最新的更新：<a href="https://github.com/GitTianxun163/FriendWar/blob/main/UpdateLogs/7-v1.2.1.md" target="blank">点击此处</a><br>

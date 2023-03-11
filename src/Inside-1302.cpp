@@ -677,7 +677,7 @@ void updateAi(Player& player,Player& other) {
     */
     if (player.x < other.x) {
         player.forword();
-        if (player.CD>=MAX_CD && player.bullet_num>0 && player.y == other.y) {
+        if (player.CD>=MAX_CD && player.bullet_num>0 && player.y == other.y && !player.newb) {
             bulletList.push_back(Bullet(&player));
             player.setNewB(false);
             player.bullet_num--;
@@ -686,7 +686,7 @@ void updateAi(Player& player,Player& other) {
     }
     else if (player.x > other.x) {
         player.backword();
-        if (player.CD>=MAX_CD && player.bullet_num>0 && player.y == other.y) {
+        if (player.CD>=MAX_CD && player.bullet_num>0 && player.y == other.y && !player.newb) {
             bulletList.push_back(Bullet(&player));
             player.setNewB(false);
             player.bullet_num--;
@@ -695,7 +695,7 @@ void updateAi(Player& player,Player& other) {
     }
     else if (player.y < other.y) {
         player.downword();
-        if (player.CD>=MAX_CD && player.bullet_num>0) {
+        if (player.CD>=MAX_CD && player.bullet_num>0 && !player.newb) {
             bulletList.push_back(Bullet(&player));
             player.setNewB(false);
             player.bullet_num--;
@@ -704,7 +704,7 @@ void updateAi(Player& player,Player& other) {
     }
     else if (player.y > other.y) {
         player.upword();
-        if (player.CD>=MAX_CD && player.bullet_num>0) {
+        if (player.CD>=MAX_CD && player.bullet_num>0 && !player.newb) {
             bulletList.push_back(Bullet(&player));
             player.setNewB(false);
             player.bullet_num--;

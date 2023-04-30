@@ -6,8 +6,6 @@
         "-o",
         "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe",
         "-I",
-        "${workspaceRoot}\\src",
-        "-I",
         "${workspaceRoot}"
     ],
     "problemMatcher": {

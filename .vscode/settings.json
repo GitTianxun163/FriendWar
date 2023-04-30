@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.vue": "html",
         "iostream": "cpp",
         "tianxun": "cpp",
         "iomanip": "cpp",
@@ -60,6 +61,7 @@
         "typeindex": "cpp",
         "utility": "cpp",
         "valarray": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "*.rh": "cpp"
     }
 }

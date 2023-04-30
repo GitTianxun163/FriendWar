@@ -1,0 +1,27 @@
+
+# Debugs and Release
+bin
+build
+
+# CMake Caches
+CMakeFiles
+CMakeCache
+
+# Ide files
+.vs
+.vscode
+.idea
+
+# Cpp building
+*.o
+*.ii
+
+# Qt building
+moc_*.cpp
+
+#Execute files
+*.exe
+*.out
+
+# Test files
+test_*
